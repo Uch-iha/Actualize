@@ -1,5 +1,6 @@
 # Question 1
-#
+# FUNCTION CALLED virus THAT accepts an array of numbers AND returns an array of all values
+# FROM ORIGINAL ARRAY that are greater than 7. For example, if input is [5, 6, 7, 8, 9], output should be [8, 9].
 
 def virus(input_array)
   index = 0
