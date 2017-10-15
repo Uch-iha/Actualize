@@ -4,12 +4,12 @@
 # For example, if the input was [1, 2, 3, 4, 5], the output should be [1, 2, 3, 4, 5, 100].
 
 def array(input_array)
-  output = input_array + ["100"]                    # Creates a new array by adding '[]' to the string "100",
+  output = input_array + [100]                    # Creates a new array by adding '[]' to the string "100",
                                                     # then combines "input_array" and "["100"]" arrays by '+'
   return output
 end
 
-puts "Please type your array's numbers with just a space between each number:"
+puts "Please type your array with just a space between each number:"
 array = gets.chomp.split(" ")                       # First stores input as one string,
 # then splits the string at each space character(" ") and stores the split up strings into a array.
 
