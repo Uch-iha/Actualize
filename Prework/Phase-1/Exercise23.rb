@@ -40,4 +40,3 @@ c = 2000
     p c
   end
   c = c + 4
-end
