@@ -19,7 +19,7 @@ class Calculator
   end
 
   def divide(numbers)
-    return (numbers[0] / numbers[1]).round(4)
+    return (numbers[0] / numbers[1])
   end
 
   def average(numbers)
@@ -29,7 +29,7 @@ class Calculator
       sum = sum + numbers[index]
       index = index + 1
     end
-    return (sum / numbers.length).round(4)
+    return (sum / numbers.length)
   end
 end
 
@@ -41,13 +41,13 @@ puts "Your number doubled is #{calc.double(input_number)}"
 puts "Your number squared is #{calc.square(input_number)}"
 
 puts "What two numbers you want to multiply, enter them in with just a space between them:"
-input_number_array = gets.chomp.split(" ").map { |s| s.to_i }
+input_number_array = gets.chomp.split(" ").map { |s| s.to_f }
 puts "Your two numbers multiplied is #{calc.multiply(input_number_array)}"
 
 puts "What two numbers you want to divide, enter them in with just a space between them:"
-input_number_array = gets.chomp.split(" ").map { |s| s.to_i }
+input_number_array = gets.chomp.split(" ").map { |s| s.to_f }
 puts "Your two numbers divided is #{calc.divide(input_number_array)}"
 
 puts "What numbers you want to get the average of, enter them in with just a space between them:"
-input_number_array = gets.chomp.split(" ").map { |s| s.to_i }
+input_number_array = gets.chomp.split(" ").map { |s| s.to_f }
 puts "The average of your numbers is: #{calc.average(input_number_array)}"
