@@ -2,10 +2,10 @@ a = 1
 b = 2
 c = 3
 
-z = a
+temp = a
 a = c
 c = b
-b = z
+b = temp
 
 p b
 p c
