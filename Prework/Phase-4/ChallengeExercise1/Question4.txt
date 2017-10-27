@@ -1,0 +1,11 @@
+# Answer the following questions:
+# a. In your opinion, what advantages does oop_todo have over procedural_todo?
+# b. In your opinion, what advantages does procedural_todo have over oop_todo?
+
+
+a.) The advantages of oop_todo over procedural_todo is the file size is smaller than the other.
+    You can also hide parts of your source code from people who reverse engineer it,
+    so that your code can't be copied.
+
+b.) The advantages of procedural_todo over oop_todo is that the file will run faster than the other.
+    It's a lot easier to follow, meaning that peers can just look at one file to debug rather then multiple.
